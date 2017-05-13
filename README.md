@@ -1,0 +1,1 @@
+# scriptminerbitcoinmanager2.0
